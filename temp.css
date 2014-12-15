@@ -1,0 +1,143 @@
+
+
+body {
+  background-image:url('http://dl.dropboxusercontent.com/s/8jc8zas6grvsvwk/RanaCostaRicense.jpg');
+  background-repeat:repeat-y;
+  background-attachment:fixed;
+  background-position:0 -125px;   
+  background-size: 100%;
+  color:white;
+  text-transform:uppercase;
+  font-family: 'Verdana', sans-serif;
+  padding:0;
+  margin:0;
+} 
+
+#container {
+  width:100%;height:100%;
+}
+table {
+  width:100%;
+  overflow:hidden; white-space: nowrap;
+}
+table td {
+  width:33%;
+}
+.dia {
+  width:100%;
+  text-align:center;
+  padding:20px 10px 25px 10px;
+  margin:0 0 10px 0;
+  font-size:40px;
+  background-color:black;
+}
+
+.data {
+  width:100%;
+  text-align:center;
+  padding:10px;
+  margin:0 0 5px 0;
+  background-color:black;
+}
+.transparent_class {
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+
+  /* IE 6-7 */
+  filter: alpha(opacity=60);
+
+  /* Netscape */
+  -moz-opacity: 0.6;
+
+  /* Safari 1.x */
+  -khtml-opacity: 0.6;
+
+  /* Good browsers */
+  opacity: 0.6;
+}
+.data table td.value
+{
+  font-size:93px;  
+  vertical-align:bottom;
+  height:156px;
+  line-height: 90px;
+  letter-spacing:-5px;
+}
+
+td.desc{
+  text-align:center;
+  font-size:16px;
+  margin:0;
+  font-size:25px;  
+}
+.humidity {
+  background-image: url("https://dl.dropboxusercontent.com/u/1834023/arduino/gota.png");
+  background-repeat: no-repeat;
+  background-position:center bottom;
+  background-size: auto 142px;  
+  font-size:36px !important;  
+  line-height: 90px !important;
+  opacity: 100%;
+}
+.graus {
+  font-size:65px !important;    
+  line-height: 115px !important;  
+  margin-left:-5px;
+}
+
+.switch {
+  width:100%;
+  text-align:center;
+  padding:10px;
+  font-size:64px;
+  background-color:black;
+  float:left;
+
+  color:#fff;
+  text-transform:uppercase;
+  margin-top:25px;
+}
+.switch:active {
+	-moz-box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+	-webkit-box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+	box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+	position: relative;
+	top: 1px;	-moz-box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+	-webkit-box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+	box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+	position: relative;
+	top: 1px;	-moz-box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+	-webkit-box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+	box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+	position: relative;
+	top: 1px;
+}
+.on {background-color: back;}
+.off {background-color: back;}
+.switch span {
+	margin:0 10px 0 0 ;padding:0 25px 0 0;
+}
+
+#switch1 {
+  clear:both;
+}
+
+.loading {
+  background-image:url('http://dl.dropboxusercontent.com/u/1834023/arduino/loading.gif');
+  background-repeat:no-repeat;
+  background-position:right center;
+}
+
+#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:270px;
+   width:100%;
+}
+
+/* IE 6 */
+* html #footer {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}
